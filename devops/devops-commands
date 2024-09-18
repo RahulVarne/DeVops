@@ -1,0 +1,62 @@
+Git All Commands
+Basic Commands:
+•	git init - Initialize a new Git repository
+•	git clone <repository> - Clone a remote repository to your local machine
+•	git status - Show the working tree status
+•	git add <file> - Stage changes for the next commit
+•	git commit -m "message" - Commit changes with a message
+•	git log - Show the commit history
+•	git diff - Show changes between commits, working directory, and the index
+Branching and Merging:
+•	git branch - List, create, or delete branches
+•	git branch <branch-name> - Create a new branch
+•	git checkout <branch-name> - Switch to a branch
+•	git checkout -b <branch-name> - Create and switch to a new branch
+•	git merge <branch-name> - Merge changes from another branch
+•	git rebase <branch-name> - Reapply commits on top of another base branch
+•	git tag - List, create, or delete tags
+•	git tag <tag-name> - Create a new tag
+Remote Repositories:
+•	git remote - Manage set of tracked repositories
+•	git remote add <name> <url> - Add a new remote repository
+•	git remote remove <name> - Remove a remote repository
+•	git fetch <remote> - Download objects and refs from a remote repository
+•	git pull <remote> <branch> - Fetch and merge changes from a remote branch
+•	git push <remote> <branch> - Push changes to a remote repository
+Undo Changes:
+•	git reset - Reset current HEAD to a specified state
+•	git reset --hard - Reset changes in working directory and index
+•	git reset <file> - Unstage a file
+•	git revert <commit> - Revert a commit by creating a new commit
+•	git clean - Remove untracked files from the working directory
+Stashing:
+•	git stash - Save changes temporarily to a stack
+•	git stash list - List all stashes
+•	git stash apply - Apply the latest stash
+•	git stash drop - Remove a stash
+•	git stash pop - Apply the latest stash and remove it
+Configuration and Info:
+•	git config - Get and set repository or global options
+•	git config --global user.name "name" - Set global user name
+•	git config --global user.email "email" - Set global email
+•	git config --list - List all configuration settings
+•	git describe - Describe the current commit
+Comparing and Inspecting:
+•	git diff - Show changes between commits, working directory, and index
+•	git show <commit> - Show various types of objects
+•	git blame <file> - Show who changed each line in a file
+Advanced Commands:
+•	git cherry-pick <commit> - Apply the changes from a specific commit
+•	git rebase -i <commit> - Interactively rebase commits
+•	git reflog - Show the reference logs
+•	git archive - Create an archive of files from a named tree
+Collaboration:
+•	git pull --rebase - Fetch from the remote and rebase the current branch
+•	git push --force - Forcefully push changes to a remote branch (use with caution)
+•	git merge --no-ff - Create a merge commit even if the merge could be fast-forwarded
+Repository Management:
+•	git init - Initialize a new Git repository
+•	git clone <repo> - Clone an existing repository
+•	git gc - Cleanup unnecessary files and optimize the local repository
+
+
